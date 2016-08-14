@@ -1,0 +1,17 @@
+[package]
+authors = ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]
+name = "minpm"
+version = "0.1.0"
+
+[[bin]]
+name = "there"
+path = "bin/cli.rs"
+
+[dependencies]
+futures = "0.1.0"
+getopts = "0.2.14"
+regex = "0.1.73"
+
+[lib]
+name = "lib_minpm"
+path = "src/main.rs"
